@@ -1,0 +1,9 @@
+# Already installed in your .venv (do not reinstall):
+#   streamlit
+#   pillow
+# Added in Phase 2 (installed with the command in README_AR.md):
+#   torch
+#   torchvision
+#   open_clip_torch
+# Everything else in this project uses only numpy (installed with Streamlit)
+# and the Python standard library.
