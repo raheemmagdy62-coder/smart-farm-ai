@@ -1,0 +1,55 @@
+key,ece_threshold_dsm,slope_pct_per_dsm,rating,rating_is_estimate,based_on,note
+barley,8.0,5.0,T,0,Grain yield,Less tolerant at seedling stage (ECe should not exceed 4-5 dS/m then)
+maize,1.7,12,MS,0,Ear fresh weight,Sweet corn / field corn ear values
+cotton,7.7,5.2,T,0,Seed cotton yield,
+rice,3.0,12,S,0,Grain yield,Value refers to soil water while flooded; less tolerant at seedling stage
+sorghum,6.8,16,MT,0,Grain yield,
+sugar_beet,7.0,5.9,T,0,Storage root,Sensitive during germination: ECe should not exceed 3 dS/m
+sugarcane,1.7,5.9,MS,0,Shoot dry weight,
+sunflower,4.8,5.0,MT,0,Seed yield,
+wheat,6.0,7.1,MT,0,Grain yield,Semi-dwarf wheat 8.6 dS/m (T); durum 5.9 dS/m (T)
+faba_bean,1.6,9.6,MS,0,Shoot dry weight,Measured as forage (shoot DW)
+pea,3.4,10.6,MS,0,Seed fresh weight,
+green_bean,1.0,19,S,0,Seed yield,Common bean
+tomato,2.5,9.9,MS,0,Fruit yield,
+potato,1.7,12,MS,0,Tuber yield,
+onion,1.2,16,S,0,Bulb yield,
+cucumber,2.5,13,MS,0,Fruit yield,
+zucchini,4.9,10.5,MT,0,Fruit yield,
+eggplant,1.1,6.9,MS,0,Fruit yield,
+pepper,1.5,14,MS,0,Fruit yield,
+watermelon,,,MS,1,,Qualitative estimate only (no threshold published in the table)
+melon,1.0,8.4,MS,0,Fruit yield,Muskmelon
+okra,,,MS,0,Pod yield,Qualitative rating only
+spinach,2.0,7.6,MS,0,Top fresh weight,
+lettuce,1.3,13,MS,0,Top fresh weight,
+carrot,1.0,14,S,0,Storage root,
+garlic,3.9,14.3,MS,0,Bulb yield,
+strawberry,1.0,33,S,0,Fruit yield,
+alfalfa,2.0,7.3,MS,0,Shoot dry weight,
+berseem,1.5,5.7,MS,0,Shoot dry weight,Berseem clover
+almond,1.5,19,S,0,Shoot growth,
+apple,,,S,0,,Qualitative rating only
+apricot,1.6,24,S,0,Shoot growth,
+avocado,,,S,0,Shoot growth,Qualitative rating only
+banana,,,S,0,Fruit yield,Qualitative rating only
+cherry,,,S,1,Foliar injury,Qualitative estimate only
+date_palm,4.0,3.6,T,0,Fruit yield,
+fig,,,MT,1,Plant dry weight,Qualitative estimate only
+grape,1.5,9.6,MS,0,Shoot growth,Specific-ion (Cl/Na) injury varies strongly with rootstock
+grapefruit,1.2,13.5,S,0,Fruit yield,
+guava,4.7,9.8,MT,0,Shoot and root growth,
+jambolan,,,MT,0,Shoot growth,Qualitative rating only
+lemon,1.5,12.8,S,0,Fruit yield,
+loquat,,,S,1,Foliar injury,Qualitative estimate only
+mandarin,,,S,1,Shoot growth,Qualitative estimate only
+mango,,,S,0,Foliar injury,Qualitative rating only
+olive,,,MT,0,Seedling growth / fruit yield,Qualitative rating only
+orange,1.3,13.1,S,0,Fruit yield,
+papaya,,,MS,0,Seedling growth / foliar injury,Qualitative rating only
+peach,1.7,21,S,0,Shoot growth / fruit yield,
+pear,,,S,1,,Qualitative estimate only (no threshold published)
+plum,2.6,31,MS,0,Fruit yield,
+pomegranate,,,MS,0,Shoot growth,Qualitative rating only
+pistachio,,,MS,0,Shoot growth,Qualitative rating only
+walnut,,,S,1,Foliar injury,Qualitative estimate only

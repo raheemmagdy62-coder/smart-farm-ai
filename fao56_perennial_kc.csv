@@ -1,0 +1,19 @@
+key,name_ar,name_en,kc_ini,kc_mid,kc_end,source_ref,notes
+grape,العنب,Grapes (table or raisin),0.30,0.85,0.45,FAO-56 Table 12,Wine grapes: 0.30 / 0.70 / 0.45
+pear,الكمثرى,Pears,0.60,0.95,0.75,FAO-56 Table 12 (apples/cherries/pears; no ground cover),No frosts. With killing frost: 0.45 / 0.95 / 0.70. Kc end is before leaf drop
+apple,التفاح,Apples,0.60,0.95,0.75,FAO-56 Table 12 (apples/cherries/pears; no ground cover),No frosts. With killing frost: 0.45 / 0.95 / 0.70
+cherry,الكرز,Cherries,0.60,0.95,0.75,FAO-56 Table 12 (apples/cherries/pears; no ground cover),No frosts
+apricot,المشمش,Apricots,0.55,0.90,0.65,FAO-56 Table 12 (apricots/peaches/stone fruit; no ground cover),No frosts. With killing frost: 0.45 / 0.90 / 0.65
+peach,الخوخ,Peaches,0.55,0.90,0.65,FAO-56 Table 12 (apricots/peaches/stone fruit; no ground cover),No frosts
+plum,البرقوق,Plums,0.55,0.90,0.65,FAO-56 Table 12 (stone fruit category includes plums),No frosts
+almond,اللوز,Almonds,0.40,0.90,0.65,FAO-56 Table 12 (no ground cover),
+avocado,الأفوكادو,Avocado,0.60,0.85,0.75,FAO-56 Table 12 (no ground cover),
+orange,البرتقال,Citrus (no ground cover; 70% canopy),0.70,0.65,0.70,FAO-56 Table 12,Applies to citrus in general; 50% canopy: 0.65 / 0.60 / 0.65
+lemon,الليمون,Citrus (no ground cover; 70% canopy),0.70,0.65,0.70,FAO-56 Table 12,Applies to citrus in general
+mandarin,اليوسفي,Citrus (no ground cover; 70% canopy),0.70,0.65,0.70,FAO-56 Table 12,Applies to citrus in general
+grapefruit,الجريب فروت,Citrus (no ground cover; 70% canopy),0.70,0.65,0.70,FAO-56 Table 12,Applies to citrus in general
+olive,الزيتون,Olives (40-60% ground cover),0.65,0.70,0.70,FAO-56 Table 12,
+date_palm,نخيل البلح,Date palms,0.90,0.95,0.95,FAO-56 Table 12,
+banana,الموز,Banana (1st year),0.50,1.10,1.00,FAO-56 Table 12,2nd year: 1.00 / 1.20 / 1.10
+pistachio,الفستق,Pistachios (no ground cover),0.40,1.10,0.45,FAO-56 Table 12,
+walnut,الجوز,Walnut orchard,0.50,1.10,0.65,FAO-56 Table 12,

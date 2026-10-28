@@ -1,0 +1,1078 @@
+{
+ "version": 1,
+ "note_ar": "قاعدة معرفة أولية: كل وصف أعراض وكل نصيحة مأخوذة (بإعادة صياغة) من مصدر إرشاد زراعي مذكور بجانبها، ومعظم المصادر من خارج مصر. لم يراجعها مهندس زراعي مصري بعد. الحالات الشائعة في مصر وغير المدرجة هنا لن تظهر.",
+ "reviewed_by_expert": false,
+ "plants": {
+  "grape": "العنب",
+  "guava": "الجوافة",
+  "pear": "الكمثرى"
+ },
+ "questions": [
+  {
+   "id": "part",
+   "type": "multi",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "أين تظهر الأعراض؟ (يمكن اختيار أكثر من جزء)",
+   "options": [
+    {
+     "id": "leaf",
+     "text_ar": "الأوراق"
+    },
+    {
+     "id": "shoot",
+     "text_ar": "الأفرع أو الأغصان أو البراعم"
+    },
+    {
+     "id": "flower",
+     "text_ar": "الأزهار"
+    },
+    {
+     "id": "fruit",
+     "text_ar": "الثمار أو الحبات"
+    },
+    {
+     "id": "whole_tree",
+     "text_ar": "الشجرة كلها (ذبول أو اصفرار عام)"
+    }
+   ]
+  },
+  {
+   "id": "leaf_top",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "ما شكل الأعراض على الوجه العلوي للورقة؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "white_powder",
+     "text_ar": "طبقة بيضاء أو رمادية مسحوقية (كأنها دقيق)"
+    },
+    {
+     "id": "yellow_spots",
+     "text_ar": "بقع صفراء أو خضراء فاتحة تبدو زيتية"
+    },
+    {
+     "id": "brown_spots",
+     "text_ar": "بقع بنية أو سوداء"
+    },
+    {
+     "id": "orange_tufts",
+     "text_ar": "خمل أو وبر برتقالي صدئي"
+    },
+    {
+     "id": "blisters",
+     "text_ar": "انتفاخات أو بثور بارزة"
+    },
+    {
+     "id": "scorched_leaf",
+     "text_ar": "ورقة كاملة تبدو محروقة سوداء وتظل معلقة"
+    },
+    {
+     "id": "yellowing_all",
+     "text_ar": "اصفرار عام بدون بقع"
+    },
+    {
+     "id": "none",
+     "text_ar": "لا شيء ظاهر على الوجه العلوي"
+    }
+   ]
+  },
+  {
+   "id": "leaf_under",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "اقلب الورقة: ماذا ترى على الوجه السفلي؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "white_powder",
+     "text_ar": "طبقة بيضاء أو رمادية مسحوقية"
+    },
+    {
+     "id": "white_cottony",
+     "text_ar": "زغب أبيض قطني منتفخ تحت البقع"
+    },
+    {
+     "id": "brown_patches",
+     "text_ar": "بقع بنية مائية غير منتظمة"
+    },
+    {
+     "id": "orange_tufts",
+     "text_ar": "خمل أو وبر برتقالي صدئي"
+    },
+    {
+     "id": "none",
+     "text_ar": "لا شيء ظاهر على الوجه السفلي"
+    }
+   ]
+  },
+  {
+   "id": "spot_look",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "لو توجد بقع بنية: ما ملامحها؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "purple_margin",
+     "text_ar": "دائرية بحافة أرجوانية داكنة"
+    },
+    {
+     "id": "angular",
+     "text_ar": "زاوية الشكل تحدها عروق الورقة"
+    },
+    {
+     "id": "irregular_water",
+     "text_ar": "غير منتظمة ومائية المظهر"
+    },
+    {
+     "id": "plain_circular",
+     "text_ar": "دائرية بنية بدون حافة مميزة"
+    }
+   ]
+  },
+  {
+   "id": "leaf_age",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "أي الأوراق أكثر إصابة؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "young_leaves",
+     "text_ar": "الأوراق الصغيرة الحديثة"
+    },
+    {
+     "id": "old_or_lower_leaves",
+     "text_ar": "الأوراق الأكبر أو السفلية"
+    },
+    {
+     "id": "all_leaves",
+     "text_ar": "كل الأوراق تقريبًا"
+    }
+   ]
+  },
+  {
+   "id": "shoot_look",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "ما شكل الأفرع المصابة؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "scorched_crook",
+     "text_ar": "تبدو محروقة سوداء وطرف الفرع منحنٍ كعصا الراعي"
+    },
+    {
+     "id": "dieback",
+     "text_ar": "جفاف يبدأ من الطرف ويتقدم للخلف"
+    },
+    {
+     "id": "distorted_stunted",
+     "text_ar": "متقزمة أو متشوهة أو سميكة"
+    },
+    {
+     "id": "oozing",
+     "text_ar": "نضح أو إفرازات من اللحاء"
+    },
+    {
+     "id": "none",
+     "text_ar": "الأفرع تبدو طبيعية"
+    }
+   ]
+  },
+  {
+   "id": "fruit_look",
+   "type": "single",
+   "applies_to": [
+    "grape",
+    "guava",
+    "pear"
+   ],
+   "text_ar": "ما شكل الأعراض على الثمار أو الحبات؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "black_lesions_spores",
+     "text_ar": "بقع سوداء مع كتل بوغية برتقالية أو وردية"
+    },
+    {
+     "id": "dark_scab",
+     "text_ar": "بقع بنية داكنة إلى سوداء جرباء"
+    },
+    {
+     "id": "white_powder_cracked",
+     "text_ar": "طبقة بيضاء مسحوقية أو تشقق الحبات"
+    },
+    {
+     "id": "cottony_white",
+     "text_ar": "زغب أبيض قطني على الحبات"
+    },
+    {
+     "id": "none",
+     "text_ar": "الثمار تبدو طبيعية"
+    }
+   ]
+  },
+  {
+   "id": "whole_look",
+   "type": "single",
+   "applies_to": [
+    "guava"
+   ],
+   "text_ar": "هل الشجرة كلها متأثرة؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "wilt_yellow_defoliation",
+     "text_ar": "اصفرار فاتح وذبول والتفاف الأوراق ثم تساقطها"
+    },
+    {
+     "id": "none",
+     "text_ar": "لا، الأعراض موضعية"
+    }
+   ]
+  },
+  {
+   "id": "waterlogging",
+   "type": "single",
+   "applies_to": [
+    "guava"
+   ],
+   "text_ar": "حالة الصرف حول الشجرة؟",
+   "options": [
+    {
+     "id": "unknown",
+     "text_ar": "لم أتأكد / لا أعرف"
+    },
+    {
+     "id": "waterlogged",
+     "text_ar": "ماء راكد أو صرف ضعيف لفترات"
+    },
+    {
+     "id": "good_drainage",
+     "text_ar": "الصرف جيد"
+    }
+   ]
+  }
+ ],
+ "diseases": [
+  {
+   "id": "grape_powdery_mildew",
+   "plant": "grape",
+   "kind": "disease",
+   "name_ar": "البياض الدقيقي في العنب",
+   "name_en": "Grape powdery mildew",
+   "pathogen": "Erysiphe necator",
+   "summary_ar": "مرض فطري يظهر كطبقة مسحوقية بيضاء إلى رمادية على الأوراق والأفرع والعناقيد، وغالبًا يُرى أولًا على الوجه السفلي للأوراق. ينمو أفضل على الأنسجة الصغيرة، والحبات الصغيرة شديدة الحساسية بينما الناضجة تصبح مقاومة.",
+   "how_to_tell_ar": "المسحوق الأبيض الجاف يرجّح البياض الدقيقي. أما الزغب القطني تحت بقع صفراء زيتية فيرجّح البياض الزغبي، وقد يُخلط بينهما في بداية الإصابة.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ],
+     "weak": [
+      "shoot",
+      "fruit"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "white_powder"
+     ],
+     "weak": [
+      "yellow_spots"
+     ]
+    },
+    "leaf_under": {
+     "strong": [
+      "white_powder"
+     ],
+     "contra": [
+      "white_cottony"
+     ]
+    },
+    "shoot_look": {
+     "weak": [
+      "distorted_stunted"
+     ]
+    },
+    "fruit_look": {
+     "strong": [
+      "white_powder_cracked"
+     ]
+    },
+    "leaf_age": {
+     "weak": [
+      "young_leaves"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "cultural",
+     "text_ar": "الإدارة تقوم على الوقاية أكثر من علاج الإصابة بعد ظهورها.",
+     "source": "NMSU Cooperative Extension - Grape Powdery Mildew (H-329)",
+     "url": "https://pubs.nmsu.edu/_h/H329.pdf"
+    },
+    {
+     "kind": "cultural",
+     "text_ar": "اختيار مواقع جيدة التهوية وممارسات تزيد نفاذ الضوء وتقلل الرطوبة داخل المجموع الخضري تجعل الظروف أقل مناسبة للمرض.",
+     "source": "NMSU Cooperative Extension - Grape Powdery Mildew (H-329)",
+     "url": "https://pubs.nmsu.edu/_h/H329.pdf"
+    },
+    {
+     "kind": "timing",
+     "text_ar": "الفترة الأكثر حساسية للمكافحة تمتد من قبل الإزهار حتى نحو أسبوعين بعده.",
+     "source": "UC Cooperative Extension - Controlling Powdery Mildew in Winegrapes (2025)",
+     "url": "https://ucanr.edu/node/168800"
+    },
+    {
+     "kind": "chemical_note",
+     "text_ar": "تُستخدم المبيدات الفطرية عادة قبل حدوث العدوى، ويستطيع الفطر تطوير مقاومة لها بسرعة. المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "WSU Extension EM059E - Powdery mildew in grape production",
+     "url": "https://wpcdn.web.wsu.edu/wp-ecommerce/uploads/sites/2/woocommerce_uploads/EM059E_24-c1pfg0.pdf"
+    },
+    {
+     "kind": "info",
+     "text_ar": "فطر البياض الدقيقي الخاص بالعنب يصيب العنب فقط، ولا ينتقل من نباتات أخرى إليه.",
+     "source": "UC Cooperative Extension - Controlling Powdery Mildew in Winegrapes (2025)",
+     "url": "https://ucanr.edu/node/168800"
+    }
+   ],
+   "sources": [
+    {
+     "name": "NMSU Cooperative Extension - Grape Powdery Mildew (H-329)",
+     "url": "https://pubs.nmsu.edu/_h/H329.pdf"
+    },
+    {
+     "name": "OMAFRA (Ontario) - Grape powdery mildew",
+     "url": "https://www.omafra.gov.on.ca/IPM/english/grapes/diseases-and-disorders/powdery.html"
+    },
+    {
+     "name": "UC Cooperative Extension - Controlling Powdery Mildew in Winegrapes (2025)",
+     "url": "https://ucanr.edu/node/168800"
+    },
+    {
+     "name": "WSU Extension EM059E - Powdery mildew in grape production",
+     "url": "https://wpcdn.web.wsu.edu/wp-ecommerce/uploads/sites/2/woocommerce_uploads/EM059E_24-c1pfg0.pdf"
+    },
+    {
+     "name": "Western Australia DPIRD - Downy mildew of grapevines",
+     "url": "https://agric.wa.gov.au/table-grapes/downy-mildew-grapevines?nopaging=1"
+    }
+   ]
+  },
+  {
+   "id": "grape_downy_mildew",
+   "plant": "grape",
+   "kind": "disease",
+   "name_ar": "البياض الزغبي في العنب",
+   "name_en": "Grape downy mildew",
+   "pathogen": "Plasmopara viticola",
+   "summary_ar": "تبدأ الأعراض ببقع صفراء لامعة (بقع زيتية) على الوجه العلوي للأوراق الصغيرة، ثم يظهر زغب أبيض على الوجه السفلي بعد ليالٍ دافئة رطبة، ثم تتحول البقع للبني وقد تتساقط الأوراق. يصيب كل الأجزاء الخضراء الصغيرة: أوراق وأفرع ومحاليق وأزهار وحبات.",
+   "how_to_tell_ar": "اقلب الورقة: ظهور زغب أبيض تحت البقع الصفراء خلال يوم إلى يومين يدعم البياض الزغبي. بقع مشابهة بلا زغب قد تكون ضررًا من مبيد أعشاب.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ],
+     "weak": [
+      "shoot",
+      "flower",
+      "fruit"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "yellow_spots"
+     ],
+     "contra": [
+      "white_powder"
+     ]
+    },
+    "leaf_under": {
+     "strong": [
+      "white_cottony"
+     ],
+     "contra": [
+      "white_powder"
+     ]
+    },
+    "spot_look": {
+     "weak": [
+      "angular"
+     ]
+    },
+    "shoot_look": {
+     "weak": [
+      "distorted_stunted"
+     ]
+    },
+    "fruit_look": {
+     "strong": [
+      "cottony_white"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "cultural",
+     "text_ar": "أي ممارسة تسرّع جفاف الأوراق والثمار تقلل احتمال العدوى.",
+     "source": "Ohio State University Extension - Downy Mildew of Grape (PLPATH-FRU-33)",
+     "url": "https://ohioline.osu.edu/factsheet/plpath-fru-33"
+    },
+    {
+     "kind": "info",
+     "text_ar": "الفطر يقضي الشتاء في أوراق مصابة على الأرض وربما في أفرع مصابة.",
+     "source": "Ohio State University Extension - Downy Mildew of Grape (PLPATH-FRU-33)",
+     "url": "https://ohioline.osu.edu/factsheet/plpath-fru-33"
+    },
+    {
+     "kind": "timing",
+     "text_ar": "افحص الأوراق والأفرع والعناقيد بعد الإزهار، واقلب الورقة بحثًا عن الزغب الأبيض بعد ليلة دافئة رطبة.",
+     "source": "MSU Extension - Don't let downy mildew get you down",
+     "url": "https://www.canr.msu.edu/news/dont_let_downy_mildew_get_you_down"
+    },
+    {
+     "kind": "chemical_note",
+     "text_ar": "المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "Cornell IPM - Grapevine downy mildew fact sheet",
+     "url": "https://cals.cornell.edu/integrated-pest-management/grapevine-downy-mildew-plasmopara-viticola-fruit-fact-sheet"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Cornell IPM - Grapevine downy mildew fact sheet",
+     "url": "https://cals.cornell.edu/integrated-pest-management/grapevine-downy-mildew-plasmopara-viticola-fruit-fact-sheet"
+    },
+    {
+     "name": "MSU Extension - Don't let downy mildew get you down",
+     "url": "https://www.canr.msu.edu/news/dont_let_downy_mildew_get_you_down"
+    },
+    {
+     "name": "Ohio State University Extension - Downy Mildew of Grape (PLPATH-FRU-33)",
+     "url": "https://ohioline.osu.edu/factsheet/plpath-fru-33"
+    },
+    {
+     "name": "Western Australia DPIRD - Downy mildew of grapevines",
+     "url": "https://agric.wa.gov.au/table-grapes/downy-mildew-grapevines?nopaging=1"
+    }
+   ]
+  },
+  {
+   "id": "grape_blister_mite",
+   "plant": "grape",
+   "kind": "lookalike",
+   "name_ar": "ضرر حلم تقرّح أوراق العنب (يشبه الأمراض)",
+   "name_en": "Grape leaf blister mite damage (look-alike)",
+   "pathogen": "",
+   "summary_ar": "قد يظهر نمو أبيض على الوجه السفلي داخل انتفاخات خضراء تبرز من الوجه العلوي للورقة، وقد يُظن أنه بياض زغبي.",
+   "how_to_tell_ar": "النمو الأبيض هنا يتكوّن داخل انتفاخات خضراء تبرز من الجهة العلوية، وهذا يفرّقه عن زغب البياض الزغبي.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "blisters"
+     ]
+    },
+    "leaf_under": {
+     "weak": [
+      "white_powder",
+      "white_cottony"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "none",
+     "text_ar": "لا توجد توصية إدارة موثقة لهذه الحالة في قاعدة المعرفة الحالية. استشر مهندسًا زراعيًا.",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "sources": [
+    {
+     "name": "Western Australia DPIRD - Downy mildew of grapevines",
+     "url": "https://agric.wa.gov.au/table-grapes/downy-mildew-grapevines?nopaging=1"
+    }
+   ]
+  },
+  {
+   "id": "guava_anthracnose",
+   "plant": "guava",
+   "kind": "disease",
+   "name_ar": "الأنثراكنوز في الجوافة",
+   "name_en": "Guava anthracnose",
+   "pathogen": "Colletotrichum gloeosporioides",
+   "summary_ar": "من أهم أمراض ثمار الجوافة قبل الحصاد وبعده. يسبب بقعًا داكنة على الثمار وقد يصيب الأوراق والأزهار، وقد تظهر كتل بوغية برتقالية أو وردية، وفي بعض الحالات يجف الفرع من طرفه للخلف. يرتبط بالأمطار والرطوبة العالية.",
+   "how_to_tell_ar": "أوضح الأعراض تظهر على الثمار الناضجة كبقع سوداء متعددة.",
+   "expects": {
+    "part": {
+     "strong": [
+      "fruit"
+     ],
+     "weak": [
+      "leaf",
+      "flower",
+      "shoot"
+     ]
+    },
+    "fruit_look": {
+     "strong": [
+      "black_lesions_spores"
+     ]
+    },
+    "leaf_top": {
+     "weak": [
+      "brown_spots"
+     ]
+    },
+    "shoot_look": {
+     "weak": [
+      "dieback"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "info",
+     "text_ar": "المرض مسجل في مناطق زراعة الجوافة ذات الأمطار والرطوبة العالية.",
+     "source": "UF/IFAS EDIS PG133 - Florida Plant Disease Management Guide: Guava",
+     "url": "https://edis.ifas.ufl.edu/publication/PG133"
+    },
+    {
+     "kind": "chemical_note",
+     "text_ar": "توجد مبيدات فطرية مستخدمة في فلوريدا، ويُرجع للإرشاد الزراعي المحلي لمعرفة المسجّل منها. المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "UF/IFAS EDIS PG133 - Florida Plant Disease Management Guide: Guava",
+     "url": "https://edis.ifas.ufl.edu/publication/PG133"
+    }
+   ],
+   "sources": [
+    {
+     "name": "UF/IFAS EDIS PG133 - Florida Plant Disease Management Guide: Guava",
+     "url": "https://edis.ifas.ufl.edu/publication/PG133"
+    },
+    {
+     "name": "Vikaspedia - Guava diseases and symptoms",
+     "url": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-guava/guava-diseases-and-symptoms"
+    },
+    {
+     "name": "Penn State PlantVillage - Guava common pests and diseases",
+     "url": "https://plantvillage.psu.edu/topics/guava/infos"
+    }
+   ]
+  },
+  {
+   "id": "guava_algal_leaf_spot",
+   "plant": "guava",
+   "kind": "disease",
+   "name_ar": "تبقع الطحالب في أوراق الجوافة",
+   "name_en": "Guava algal leaf spot",
+   "pathogen": "Cephaleuros virescens",
+   "summary_ar": "ينتج عن طحلب طفيلي: خمل أو وبر برتقالي صدئي على جانبي الورقة يتحول للأحمر الأرجواني مع النضج، أو بقع بنية محمرة دائرية. يصيب الأوراق الصغيرة غالبًا، وقد يسبب تساقط الأوراق والثمار في الحالات الشديدة.",
+   "how_to_tell_ar": "إذا أُزيل الخمل البرتقالي تبقى بقعة رفيعة رمادية أو داكنة ميتة على الورقة.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ],
+     "weak": [
+      "fruit"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "orange_tufts"
+     ],
+     "weak": [
+      "brown_spots"
+     ]
+    },
+    "leaf_under": {
+     "strong": [
+      "orange_tufts"
+     ]
+    },
+    "spot_look": {
+     "weak": [
+      "plain_circular"
+     ]
+    },
+    "leaf_age": {
+     "weak": [
+      "young_leaves"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "chemical_note",
+     "text_ar": "ذكر مصدر UF/IFAS أن النحاس ضمن الرش الغذائي الدوري أو رشة أو رشتين صيفًا يتحكم عادة في المرض؛ تحقّق من التسجيل والتركيز مع مختص. المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "Growables (UF/IFAS material) - Guava Diseases",
+     "url": "https://growables.org/information/TropicalFruit/guavadiseases.htm"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Penn State PlantVillage - Guava common pests and diseases",
+     "url": "https://plantvillage.psu.edu/topics/guava/infos"
+    },
+    {
+     "name": "Growables (UF/IFAS material) - Guava Diseases",
+     "url": "https://growables.org/information/TropicalFruit/guavadiseases.htm"
+    },
+    {
+     "name": "Vikaspedia - Guava diseases and symptoms",
+     "url": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-guava/guava-diseases-and-symptoms"
+    }
+   ]
+  },
+  {
+   "id": "guava_leaf_spot",
+   "plant": "guava",
+   "kind": "disease",
+   "name_ar": "تبقع أوراق الجوافة (Cercospora/Pseudocercospora)",
+   "name_en": "Guava Cercospora / Pseudocercospora leaf spot",
+   "pathogen": "Cercospora sawadae / Pseudocercospora psidii",
+   "summary_ar": "بقع بنية مائية غير منتظمة على الوجه السفلي مع اصفرار على الوجه العلوي، وتصيب الأوراق الأكبر عادة، وقد تلتف الأوراق الشديدة الإصابة وتسقط. شائع في المناطق الدافئة الرطبة الممطرة.",
+   "how_to_tell_ar": "البقع المائية البنية على الوجه السفلي مع اصفرار فوقها تميّزه عن تبقع الطحالب البرتقالي.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "yellow_spots"
+     ]
+    },
+    "leaf_under": {
+     "strong": [
+      "brown_patches"
+     ]
+    },
+    "spot_look": {
+     "weak": [
+      "irregular_water"
+     ]
+    },
+    "leaf_age": {
+     "strong": [
+      "old_or_lower_leaves"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "none",
+     "text_ar": "لا توجد توصية إدارة موثقة لهذه الحالة في قاعدة المعرفة الحالية. استشر مهندسًا زراعيًا.",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "sources": [
+    {
+     "name": "TNAU / National Horticulture Mission (India) - IPM schedule for guava pests",
+     "url": "https://agritech.tnau.ac.in/horticulture/pdf/tech_bulletin/national/IPM-GUAVA-Revised-Sept2011.pdf"
+    },
+    {
+     "name": "Growables (UF/IFAS material) - Guava Diseases",
+     "url": "https://growables.org/information/TropicalFruit/guavadiseases.htm"
+    }
+   ]
+  },
+  {
+   "id": "guava_wilt",
+   "plant": "guava",
+   "kind": "disease",
+   "name_ar": "ذبول الجوافة",
+   "name_en": "Guava wilt",
+   "pathogen": "عدة فطريات تربة مذكورة في المراجع",
+   "summary_ar": "أول أعراضه اصفرار فاتح للأوراق مع فقدان الامتلاء والتفاف، ثم تساقط الأوراق وضعف الشجرة. وُصف بأنه مرض خطير لبساتين الجوافة.",
+   "how_to_tell_ar": "الأعراض تشمل الشجرة كلها وليست بقعًا موضعية على الأوراق.",
+   "expects": {
+    "part": {
+     "strong": [
+      "whole_tree"
+     ]
+    },
+    "whole_look": {
+     "strong": [
+      "wilt_yellow_defoliation"
+     ]
+    },
+    "waterlogging": {
+     "weak": [
+      "waterlogged"
+     ]
+    },
+    "leaf_top": {
+     "weak": [
+      "yellowing_all"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "cultural",
+     "text_ar": "إصابة الجذور وركود الماء لفترات طويلة وسوء الصرف ذُكرت كعوامل مساعدة للمرض، لذلك يُنصح بتجنبها.",
+     "source": "Vikaspedia - Guava diseases and symptoms",
+     "url": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-guava/guava-diseases-and-symptoms"
+    },
+    {
+     "kind": "info",
+     "text_ar": "ذكر المصدر استخدام أصول مقاومة كأحد الحلول.",
+     "source": "TNAU / National Horticulture Mission (India) - IPM schedule for guava pests",
+     "url": "https://agritech.tnau.ac.in/horticulture/pdf/tech_bulletin/national/IPM-GUAVA-Revised-Sept2011.pdf"
+    },
+    {
+     "kind": "info",
+     "text_ar": "ذكر المصدر المكافحة الحيوية وتحسين التربة والزراعة البينية كنهج صديق للبيئة.",
+     "source": "TNAU / National Horticulture Mission (India) - IPM schedule for guava pests",
+     "url": "https://agritech.tnau.ac.in/horticulture/pdf/tech_bulletin/national/IPM-GUAVA-Revised-Sept2011.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "TNAU / National Horticulture Mission (India) - IPM schedule for guava pests",
+     "url": "https://agritech.tnau.ac.in/horticulture/pdf/tech_bulletin/national/IPM-GUAVA-Revised-Sept2011.pdf"
+    },
+    {
+     "name": "Vikaspedia - Guava diseases and symptoms",
+     "url": "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-fruit-crops/ipm-strategies-for-guava/guava-diseases-and-symptoms"
+    }
+   ]
+  },
+  {
+   "id": "pear_fire_blight",
+   "plant": "pear",
+   "kind": "disease",
+   "name_ar": "اللفحة النارية في الكمثرى",
+   "name_en": "Pear fire blight",
+   "pathogen": "Erwinia amylovora",
+   "summary_ar": "مرض بكتيري خطير يصيب الأزهار والأفرع والأوراق والثمار. تذبل الأفرع وتتحول للأسود أو البني الداكن كأنها محروقة، ويأخذ طرف الفرع شكل عصا الراعي، وتبقى الأوراق المسودة معلقة. قد يقتل الشجرة، وينتقل بالحشرات والرياح والمطر.",
+   "how_to_tell_ar": "الأفرع المحروقة بطرف منحنٍ مع أوراق سوداء معلقة علامة مميزة للفحة النارية.",
+   "expects": {
+    "part": {
+     "strong": [
+      "shoot"
+     ],
+     "weak": [
+      "flower",
+      "leaf",
+      "fruit"
+     ]
+    },
+    "shoot_look": {
+     "strong": [
+      "scorched_crook"
+     ],
+     "weak": [
+      "oozing"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "scorched_leaf"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "sanitation",
+     "text_ar": "في البساتين الصغيرة تُعد إزالة الأجزاء المصابة أنجح وسيلة؛ تُقص الأفرع على مسافة نحو 20 إلى 30 سم تحت الأعراض المرئية مع تعقيم الأدوات بين القصات بكحول 70% أو مبيض منزلي مخفف.",
+     "source": "Connecticut Agricultural Experiment Station - Pear (Pyrus) plant pest handbook",
+     "url": "https://portal.ct.gov/caes/home/plant-pest-handbook/pphp/pear-pyrus"
+    },
+    {
+     "kind": "sanitation",
+     "text_ar": "بعد حدوث العدوى لا يوجد رش يصلح الضرر، والمتاح هو قطع الأفرع المصابة حديثًا بسرعة.",
+     "source": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    },
+    {
+     "kind": "cultural",
+     "text_ar": "يُنصح بنمو معتدل: تجنب السماد العضوي الطازج والتسميد المفرط والتقليم الجائر، واختيار أصناف أقل حساسية.",
+     "source": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    },
+    {
+     "kind": "chemical_note",
+     "text_ar": "تُستخدم برامج وقائية قبل الإزهار في بعض الدول. المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Connecticut Agricultural Experiment Station - Pear (Pyrus) plant pest handbook",
+     "url": "https://portal.ct.gov/caes/home/plant-pest-handbook/pphp/pear-pyrus"
+    },
+    {
+     "name": "CAES - Disease Control in Home Pear Orchards",
+     "url": "https://portal.ct.gov/-/media/caes/pdio/fact-sheets/disease-control-for-home-pear-orchards-11-03r.pdf"
+    },
+    {
+     "name": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    },
+    {
+     "name": "LSU AgCenter Publication 1802 - Pear",
+     "url": "https://www.lsuagcenter.com/~/media/system/2/e/4/0/2e40f4d1dd1e8dce7b732afd272a8838/p1802_2025-louisianaplantdiseasepearpdf.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pear_fabraea_leaf_spot",
+   "plant": "pear",
+   "kind": "disease",
+   "name_ar": "تبقع أوراق الكمثرى (Fabraea)",
+   "name_en": "Pear Fabraea leaf spot",
+   "pathogen": "Fabraea maculata",
+   "summary_ar": "بقع بنية داكنة إلى سوداء، غالبًا دائرية بحواف أرجوانية، تبدأ على الأوراق السفلى في الربيع، ثم تصفر الأوراق وتتساقط. قد يصيب الثمار والأفرع أيضًا.",
+   "how_to_tell_ar": "الحافة الأرجوانية للبقع الداكنة الدائرية علامة تدعم هذا التشخيص، لكنه يشبه جرب الكمثرى في بعض الحالات.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ],
+     "weak": [
+      "fruit",
+      "shoot"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "brown_spots"
+     ]
+    },
+    "spot_look": {
+     "strong": [
+      "purple_margin"
+     ]
+    },
+    "leaf_age": {
+     "weak": [
+      "old_or_lower_leaves"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "info",
+     "text_ar": "قد يصل الضرر إلى مستويات عالية في البساتين غير المعالجة، وقد تفقد الأصناف الحساسة أوراقها.",
+     "source": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    },
+    {
+     "kind": "chemical_note",
+     "text_ar": "ينصح المصدر ببرنامج مكافحة موقوت جيدًا. المبيدات تُترك للمختص وللمسجّل منها في مصر؛ لا يعرض التطبيق أسماء مبيدات ولا جرعات.",
+     "source": "CAES - Disease Control in Home Pear Orchards",
+     "url": "https://portal.ct.gov/-/media/caes/pdio/fact-sheets/disease-control-for-home-pear-orchards-11-03r.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "LSU AgCenter Publication 1802 - Pear",
+     "url": "https://www.lsuagcenter.com/~/media/system/2/e/4/0/2e40f4d1dd1e8dce7b732afd272a8838/p1802_2025-louisianaplantdiseasepearpdf.pdf"
+    },
+    {
+     "name": "CAES - Disease Control in Home Pear Orchards",
+     "url": "https://portal.ct.gov/-/media/caes/pdio/fact-sheets/disease-control-for-home-pear-orchards-11-03r.pdf"
+    },
+    {
+     "name": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    }
+   ]
+  },
+  {
+   "id": "pear_scab",
+   "plant": "pear",
+   "kind": "disease",
+   "name_ar": "جرب الكمثرى",
+   "name_en": "Pear scab",
+   "pathogen": "Venturia pirina",
+   "summary_ar": "يسبب بقعًا على الأوراق والأفرع والثمار؛ تظهر على الثمار بقع بنية داكنة إلى سوداء تشوّه مظهرها. يشبه جرب التفاح، ويقضي الشتاء على الأوراق المتساقطة وعلى الأغصان.",
+   "how_to_tell_ar": "البقع الجرباء الداكنة على الثمار تدعم الجرب؛ وعلى الأوراق قد يختلط مع تبقع Fabraea.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf",
+      "fruit"
+     ],
+     "weak": [
+      "shoot"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "brown_spots"
+     ]
+    },
+    "fruit_look": {
+     "strong": [
+      "dark_scab"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "sanitation",
+     "text_ar": "إزالة الأوراق والثمار المصابة من تحت الأشجار تساعد في السيطرة حسب مصدر ولاية كونيتيكت حيث المرض قليل الأهمية.",
+     "source": "Connecticut Agricultural Experiment Station - Pear (Pyrus) plant pest handbook",
+     "url": "https://portal.ct.gov/caes/home/plant-pest-handbook/pphp/pear-pyrus"
+    },
+    {
+     "kind": "info",
+     "text_ar": "الأصناف تختلف في حساسيتها للجرب.",
+     "source": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Connecticut Agricultural Experiment Station - Pear (Pyrus) plant pest handbook",
+     "url": "https://portal.ct.gov/caes/home/plant-pest-handbook/pphp/pear-pyrus"
+    },
+    {
+     "name": "NCAT/ATTRA - Pear diseases",
+     "url": "https://ncat.org/publication/pear-diseases/"
+    },
+    {
+     "name": "LSU AgCenter Publication 1802 - Pear",
+     "url": "https://www.lsuagcenter.com/~/media/system/2/e/4/0/2e40f4d1dd1e8dce7b732afd272a8838/p1802_2025-louisianaplantdiseasepearpdf.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pear_powdery_mildew",
+   "plant": "pear",
+   "kind": "disease",
+   "name_ar": "البياض الدقيقي في الكمثرى",
+   "name_en": "Pear powdery mildew",
+   "pathogen": "",
+   "summary_ar": "تظهر الأعراض أولًا على الوجه السفلي كبقع رمادية بيضاء مع بقع صفراء على الوجه العلوي، ثم تظهر بقع رمادية بيضاء على العلوي. تلتف الأوراق الشديدة الإصابة وتسقط.",
+   "how_to_tell_ar": "الطبقة البيضاء الرمادية على الوجه السفلي مع اصفرار فوقها هي العلامة الأوضح في المصدر.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ]
+    },
+    "leaf_under": {
+     "strong": [
+      "white_powder"
+     ]
+    },
+    "leaf_top": {
+     "weak": [
+      "yellow_spots",
+      "white_powder"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "none",
+     "text_ar": "لا توجد توصية إدارة موثقة لهذه الحالة في قاعدة المعرفة الحالية. استشر مهندسًا زراعيًا.",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "sources": [
+    {
+     "name": "LSU AgCenter Publication 1802 - Pear",
+     "url": "https://www.lsuagcenter.com/~/media/system/2/e/4/0/2e40f4d1dd1e8dce7b732afd272a8838/p1802_2025-louisianaplantdiseasepearpdf.pdf"
+    }
+   ]
+  },
+  {
+   "id": "pear_blister_mite",
+   "plant": "pear",
+   "kind": "lookalike",
+   "name_ar": "ضرر حلم تقرّح أوراق الكمثرى (يشبه الأمراض)",
+   "name_en": "Pear leaf blister mite damage (look-alike)",
+   "pathogen": "",
+   "summary_ar": "تسبب مستعمرات الحلم انتفاخات خضراء مصفرة أو محمرة على الأوراق الغضة، تتحول لاحقًا للبني، وقد تتساقط الأوراق صيفًا عند الإصابة الشديدة.",
+   "how_to_tell_ar": "الانتفاخات البارزة على الورقة تميّزه عن البقع المسطحة للأمراض الفطرية.",
+   "expects": {
+    "part": {
+     "strong": [
+      "leaf"
+     ]
+    },
+    "leaf_top": {
+     "strong": [
+      "blisters"
+     ]
+    }
+   },
+   "management": [
+    {
+     "kind": "none",
+     "text_ar": "لا توجد توصية إدارة موثقة لهذه الحالة في قاعدة المعرفة الحالية. استشر مهندسًا زراعيًا.",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "sources": [
+    {
+     "name": "Connecticut Agricultural Experiment Station - Pear (Pyrus) plant pest handbook",
+     "url": "https://portal.ct.gov/caes/home/plant-pest-handbook/pphp/pear-pyrus"
+    }
+   ]
+  }
+ ]
+}
