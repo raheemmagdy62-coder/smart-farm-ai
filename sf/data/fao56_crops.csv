@@ -1,0 +1,38 @@
+crop_key,name_ar,name_en,region_label,climate_class,plant_months,l_ini,l_dev,l_mid,l_late,kc_ini,kc_mid,kc_end,source_ref,notes
+wheat,القمح,Wheat,Pakistan; Arid Reg.,arid,10;11,25,35,65,40,0.30,1.15,0.25,"FAO-56 Table 11 row 'Grains (small)' + Table 12 Spring wheat",Kc end 0.25-0.40 (0.40 = hand-harvested); lower value used
+wheat,القمح,Wheat,Mediterranean,mediterranean,11,30,140,40,30,0.30,1.15,0.25,"FAO-56 Table 11 row 'Winter wheat' + Table 12 Spring wheat",Winter-wheat row; Table 12 Kc ini for non-frozen soils is 0.7 (winter wheat) - 0.30 used here (cereal group)
+maize,الذرة,Maize,Arid Climate,arid,12;1,25,40,45,30,0.30,1.20,0.35,"FAO-56 Table 11 row 'Maize (grain)' + Table 12",Kc end 0.60-0.35: first value for harvest at high grain moisture; dry-harvest value used
+maize,الذرة,Maize,Spain (spr. sum.); Calif.,mediterranean,4,30,40,50,30,0.30,1.20,0.35,"FAO-56 Table 11 row 'Maize (grain)' + Table 12",Kc end 0.60-0.35; dry-harvest value used
+cotton,القطن,Cotton,Egypt; Pakistan; Calif.,egypt,3;4;5,30,50,60,55,0.35,1.175,0.60,"FAO-56 Table 11 row 'Cotton' + Table 12",Kc mid 1.15-1.20 and Kc end 0.70-0.50 are ranges; midpoints used
+tomato,الطماطم,Tomato,Arid Region,arid,1,30,40,40,25,0.60,1.15,0.80,"FAO-56 Table 11 row 'Tomato' + Table 12",Kc end 0.70-0.90 range; midpoint used
+tomato,الطماطم,Tomato,Arid Region,arid,10;11,35,45,70,30,0.60,1.15,0.80,"FAO-56 Table 11 row 'Tomato' + Table 12",Kc end 0.70-0.90 range; midpoint used
+tomato,الطماطم,Tomato,Mediterranean,mediterranean,4;5,30,40,45,30,0.60,1.15,0.80,"FAO-56 Table 11 row 'Tomato' + Table 12",Kc end 0.70-0.90 range; midpoint used
+potato,البطاطس,Potato,(Semi) Arid Climate,arid,1;11,25,30,30,30,0.50,1.15,0.75,"FAO-56 Table 11 row 'Potato' + Table 12",Table lists mid 30/45 and total 115/130; lower values used
+onion,البصل,Onion (dry),Mediterranean,mediterranean,4,15,25,70,40,0.70,1.05,0.75,"FAO-56 Table 11 row 'Onion (dry)' + Table 12",
+onion,البصل,Onion (dry),Arid Region; Calif.,arid,10;1,20,35,110,45,0.70,1.05,0.75,"FAO-56 Table 11 row 'Onion (dry)' + Table 12",
+cucumber,الخيار,Cucumber,Arid Region,arid,6;8,20,30,40,15,0.60,1.00,0.75,"FAO-56 Table 11 row 'Cucumber' + Table 12 (fresh market)",
+cucumber,الخيار,Cucumber,Arid Region,arid,11;2,25,35,50,20,0.60,1.00,0.75,"FAO-56 Table 11 row 'Cucumber' + Table 12 (fresh market)",
+zucchini,الكوسة والقرع,Zucchini,Mediterranean; Arid Region,arid,4;12,25,35,25,15,0.50,0.95,0.75,"FAO-56 Table 11 row 'Squash, Zucchini' + Table 12",Kc ini 0.5 is the cucurbit group value
+zucchini,الكوسة والقرع,Zucchini,Mediterranean; Europe,mediterranean,5;6,20,30,25,15,0.50,0.95,0.75,"FAO-56 Table 11 row 'Squash, Zucchini' + Table 12",Kc ini 0.5 is the cucurbit group value
+eggplant,الباذنجان,Eggplant,Arid Region,arid,10,30,40,40,20,0.60,1.05,0.90,"FAO-56 Table 11 row 'Egg plant' + Table 12",Kc ini 0.6 is the Solanaceae group value
+pepper,الفلفل,Sweet pepper,Arid Region,arid,10,30,40,110,30,0.60,1.05,0.90,"FAO-56 Table 11 row 'Sweet peppers (bell)' + Table 12",Kc ini 0.6 is the Solanaceae group value
+pepper,الفلفل,Sweet pepper,Europe and Mediterranean,mediterranean,4;6,30,35,40,20,0.60,1.05,0.90,"FAO-56 Table 11 row 'Sweet peppers (bell)' + Table 12",Table lists Lini 25/30; 30 used
+watermelon,البطيخ,Watermelon,Near East (desert),arid,3;8,10,20,20,30,0.40,1.00,0.75,"FAO-56 Table 11 row 'Water melons' + Table 12",Table prints the plant date as 'Mat/Aug' (read as Mar/Aug)
+melon,الشمام والكنتالوب,Sweet melon,Mediterranean,mediterranean,5,25,35,40,20,0.50,1.05,0.75,"FAO-56 Table 11 row 'Sweet melons' + Table 12",
+melon,الشمام والكنتالوب,Sweet melon,Arid Region,arid,12;1,30,45,65,20,0.50,1.05,0.75,"FAO-56 Table 11 row 'Sweet melons' + Table 12",
+green_bean,الفاصوليا الخضراء,Green beans,Calif.; Egypt; Lebanon,egypt,8;9,15,25,25,10,0.50,1.05,0.90,"FAO-56 Table 11 row 'Beans (green)' + Table 12",
+green_bean,الفاصوليا الخضراء,Green beans,Calif.; Mediterranean,mediterranean,2;3,20,30,30,10,0.50,1.05,0.90,"FAO-56 Table 11 row 'Beans (green)' + Table 12",
+faba_bean,الفول البلدي,Faba bean,Mediterranean,mediterranean,3;4,20,30,35,15,0.50,1.15,0.30,"FAO-56 Table 11 row 'Faba bean' + Table 12 (dry/seed)",Kc end is 1.10 when harvested fresh
+lentil,العدس,Lentil,Arid Region,arid,10;11,25,35,70,40,0.40,1.10,0.30,"FAO-56 Table 11 row 'Lentil' + Table 12",
+pea,البسلة,Peas,Mediterranean,mediterranean,3;4,20,30,35,15,0.50,1.15,1.10,"FAO-56 Table 11 row 'Peas' + Table 12 (fresh)",Kc end 0.30 if harvested dry
+spinach,السبانخ,Spinach,Arid Region,arid,11,20,30,40,10,0.70,1.00,0.95,"FAO-56 Table 11 row 'Spinach' + Table 12",Kc ini 0.7 is the small-vegetable group value
+lettuce,الخس,Lettuce,Arid Region,arid,10;11,25,35,30,10,0.70,1.00,0.95,"FAO-56 Table 11 row 'Lettuce' + Table 12",Kc ini 0.7 is the small-vegetable group value
+lettuce,الخس,Lettuce,Mediterranean,mediterranean,11;1,30,40,25,10,0.70,1.00,0.95,"FAO-56 Table 11 row 'Lettuce' + Table 12",Kc ini 0.7 is the small-vegetable group value
+carrot,الجزر,Carrot,Arid climate,arid,10;1,20,30,30,20,0.70,1.05,0.95,"FAO-56 Table 11 row 'Carrots' + Table 12",Table lists mid 50/30 (total 100): the 30-day value is used
+carrot,الجزر,Carrot,Mediterranean,mediterranean,2;3,30,40,60,20,0.70,1.05,0.95,"FAO-56 Table 11 row 'Carrots' + Table 12",
+sugar_beet,بنجر السكر,Sugar beet,Arid Regions,arid,11,35,60,70,40,0.35,1.20,0.70,"FAO-56 Table 11 row 'Sugarbeet' + Table 12",Kc end 0.70 assumes no irrigation in the last month
+sugar_beet,بنجر السكر,Sugar beet,Mediterranean,mediterranean,11,45,75,80,30,0.35,1.20,0.70,"FAO-56 Table 11 row 'Sugarbeet' + Table 12",Kc end 0.70 assumes no irrigation in the last month
+sunflower,عباد الشمس,Sunflower,Mediterranean; California,mediterranean,4;5,25,35,45,25,0.35,1.075,0.35,"FAO-56 Table 11 row 'Sunflower' + Table 12",Kc mid 1.0-1.15 (lower value for rainfed); midpoint used
+sorghum,الذرة الرفيعة,Sorghum,Arid Region,arid,3;4,20,35,45,30,0.30,1.05,0.55,"FAO-56 Table 11 row 'Sorghum' + Table 12 (grain)",Kc mid 1.00-1.10 range; midpoint used
+sorghum,الذرة الرفيعة,Sorghum,USA; Pakistan; Mediterranean,mediterranean,5;6,20,35,40,30,0.30,1.05,0.55,"FAO-56 Table 11 row 'Sorghum' + Table 12 (grain)",Kc mid 1.00-1.10 range; midpoint used
+rice,الأرز,Rice,Mediterranean,mediterranean,5,30,30,60,30,1.05,1.20,0.75,"FAO-56 Table 11 row 'Rice' + Table 12",Kc end 0.90-0.60 range; midpoint used. Check official local restrictions on rice area and water use before considering it

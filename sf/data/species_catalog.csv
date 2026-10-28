@@ -1,0 +1,55 @@
+key,name_ar,name_en,scientific,category,core
+grape,العنب,Grape,Vitis vinifera|Vitis labrusca,fruit,1
+guava,الجوافة,Guava,Psidium guajava,fruit,1
+pear,الكمثرى,Pear,Pyrus communis|Pyrus pyrifolia|Pyrus calleryana,fruit,1
+apple,التفاح,Apple,Malus domestica,fruit,0
+quince,السفرجل,Quince,Cydonia oblonga,fruit,0
+peach,الخوخ,Peach,Prunus persica,fruit,0
+plum,البرقوق,Plum,Prunus domestica,fruit,0
+apricot,المشمش,Apricot,Prunus armeniaca,fruit,0
+cherry,الكرز,Sweet cherry,Prunus avium,fruit,0
+almond,اللوز,Almond,Prunus dulcis,fruit,0
+fig,التين,Fig,Ficus carica,fruit,0
+mango,المانجو,Mango,Mangifera indica,fruit,0
+olive,الزيتون,Olive,Olea europaea,fruit,0
+pomegranate,الرمان,Pomegranate,Punica granatum,fruit,0
+orange,البرتقال,Sweet orange,Citrus sinensis,fruit,0
+lemon,الليمون,Lemon,Citrus limon,fruit,0
+mandarin,اليوسفي,Mandarin,Citrus reticulata,fruit,0
+grapefruit,الجريب فروت,Grapefruit,Citrus paradisi,fruit,0
+loquat,الأسكدنيا,Loquat,Eriobotrya japonica,fruit,0
+mulberry,التوت,White mulberry,Morus alba,fruit,0
+jujube,العناب,Jujube,Ziziphus jujuba,fruit,0
+jambolan,الجمبولان,Java plum (jambolan),Syzygium cumini,fruit,0
+date_palm,نخيل البلح,Date palm,Phoenix dactylifera,fruit,0
+banana,الموز,Banana,Musa acuminata,fruit,0
+papaya,البابايا,Papaya,Carica papaya,fruit,0
+avocado,الأفوكادو,Avocado,Persea americana,fruit,0
+custard_apple,القشطة,Sugar apple (custard apple),Annona squamosa,fruit,0
+strawberry,الفراولة,Strawberry,Fragaria ananassa,fruit,0
+pistachio,الفستق,Pistachio,Pistacia vera,fruit,0
+walnut,الجوز,Walnut,Juglans regia,fruit,0
+persimmon,الكاكا,Persimmon,Diospyros kaki,fruit,0
+kiwi,الكيوي,Kiwifruit,Actinidia deliciosa,fruit,0
+tomato,الطماطم,Tomato,Solanum lycopersicum,crop,0
+potato,البطاطس,Potato,Solanum tuberosum,crop,0
+eggplant,الباذنجان,Eggplant,Solanum melongena,crop,0
+pepper,الفلفل,Pepper,Capsicum annuum,crop,0
+cucumber,الخيار,Cucumber,Cucumis sativus,crop,0
+zucchini,الكوسة والقرع,Zucchini / squash,Cucurbita pepo,crop,0
+melon,الشمام والكنتالوب,Melon,Cucumis melo,crop,0
+watermelon,البطيخ,Watermelon,Citrullus lanatus,crop,0
+okra,البامية,Okra,Abelmoschus esculentus,crop,0
+onion,البصل,Onion,Allium cepa,crop,0
+garlic,الثوم,Garlic,Allium sativum,crop,0
+maize,الذرة,Maize (corn),Zea mays,crop,0
+wheat,القمح,Wheat,Triticum aestivum,crop,0
+rice,الأرز,Rice,Oryza sativa,crop,0
+cotton,القطن,Cotton,Gossypium hirsutum,crop,0
+sugarcane,قصب السكر,Sugarcane,Saccharum officinarum,crop,0
+sugar_beet,بنجر السكر,Sugar beet,Beta vulgaris,crop,0
+faba_bean,الفول البلدي,Faba bean,Vicia faba,crop,0
+berseem,البرسيم المصري,Berseem clover,Trifolium alexandrinum,crop,0
+alfalfa,البرسيم الحجازي,Alfalfa,Medicago sativa,crop,0
+sunflower,عباد الشمس,Sunflower,Helianthus annuus,crop,0
+other_plant,نبات آخر,Other plant,Parthenocissus quinquefolia|Hedera helix|Rosa chinensis|Nerium oleander,other,0
